@@ -1,0 +1,63 @@
+@font-face {
+    font-family: ProximaBold;
+    src: url('./assets/font/proxima/ProximaSoft-Bold.ttf');
+    font-weight: bold;
+    font-display: block;
+}
+@font-face {
+    font-family: ProximaSemiBold;
+    src: url('./assets/font/proxima/ProximaSoft-SemiBold.ttf');
+    font-weight: bold;
+    font-display: block;
+}
+@font-face {
+    font-family: ProximaMedium;
+    src: url('./assets/font/proxima/ProximaSoft-Medium.ttf');
+    font-weight: 500;
+    font-display: block;
+}
+@font-face {
+    font-family: ProximaRegular;
+    src: url('./assets/font/proxima/ProximaSoft-Regular.ttf');
+    font-weight: 400;
+    font-display: block;
+}
+@font-face {
+    font-family: ProximaThin;
+    src: url('./assets/font/proxima/ProximaSoft-Thin.ttf');
+    font-weight: 300;
+    font-display: block;
+}
+@font-face {
+    font-family: DaysLatter;
+    src: url('./assets/font/28DaysLater/28DaysLater.ttf');
+    font-display: block;
+}
+@font-face {
+    font-family: Interstate;
+    src: url('./assets/font/interstate-cufonfonts/interstate-bold-cond-58b64162258ca.otf');
+    font-weight: bold;
+    font-display: block;
+}
+
+.proxima-bold {
+    font-family: ProximaBold, sans-serif;
+}
+.proxima-semibold {
+    font-family: ProximaSemiBold, sans-serif;
+}
+.proxima-medium {
+    font-family: ProximaMedium, sans-serif;
+}
+.proxima-regular {
+    font-family: ProximaRegular, sans-serif;
+}
+.proxima-thin {
+    font-family: ProximaThin, sans-serif;
+}
+.daysLatter {
+    font-family: DaysLatter;
+}
+.interstate {
+    font-family: Interstate;
+}

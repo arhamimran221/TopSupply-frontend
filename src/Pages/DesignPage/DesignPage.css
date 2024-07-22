@@ -1,0 +1,28 @@
+.active{
+    box-shadow: 0 2px 8px 0 rgba(39,166,255,.5) ;
+}
+.smooth-transition{
+    transition: color .3s linear,border-color .3s linear,background-color .3s linear;
+}
+:where(.css-dev-only-do-not-override-1okl62o).ant-modal .ant-modal-content{
+    padding: 0px !important ;
+
+}
+.ant-modal-content{
+    border-radius: 4px !important;
+}
+.ant-modal-title{
+    padding: 19px 20px;
+    background-color: #f9fafc;
+    border-bottom: 1px solid #cccfd6;
+    color: #27a6ff !important;
+}
+.slideIn {
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(-40%); /* Adjust this value based on your layout */
+  }
+.slideOut{
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0%); 
+}
+  

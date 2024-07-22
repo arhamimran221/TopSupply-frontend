@@ -1,0 +1,60 @@
+.tabs-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.tabs-menu {
+    width: 33%;
+    height: 45px;
+    color: #424447;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid transparent;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: proxima-soft, sans-serif;
+    letter-spacing: .35px;
+    cursor: pointer;
+}
+.tabs-menu.selected-tab {
+   border-color: #27a6ff;
+   color: #27a6ff;
+}
+.prev-style-btn {
+    margin: 10px 0px;
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+    padding: 0 25px;
+    color: #fff;
+    white-space: nowrap;
+    outline: 0;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 999px;
+    border-color: #27a6ff;
+    box-shadow: none;
+    background-color: #27a6ff;
+    -webkit-transition: border-color .1s linear, box-shadow .1s linear, background .1s linear;
+    transition: border-color .1s linear, box-shadow .1s linear, background .1s linear;
+}
+.prev-style-btn:hover {
+    border-color: #008ff3;
+    box-shadow: 0 2px 8px 0 rgba(39, 166, 255, .5);
+    background-color: #0196ff;
+}
+.close-icon span svg {
+    color: #424447;
+    font-size: 22px;
+}
+.close-icon:hover span svg,
+.close-icon span svg:hover {
+    color: #27a6ff;
+}
+
+.color-palette .circle-picker {
+    width: 100% !important;
+}
